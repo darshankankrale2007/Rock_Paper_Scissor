@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini game project</title>
+    <link href="d.css" rel="stylesheet">
+</head>
+<body>
+  <h1 style="text-align: center;color: rgb(10, 10, 10); text-shadow: 1px 1px 1px black;"> Rock Paper Scissor-Game</h1>
+  <div id="container">
+<img src="rock.png" id="rock" class="item" title="rock">
+<img src="paper.png" id="paper" class="item" title="paper">
+<img src="scissor.png" id="scissor" class="item" title="scissor">
+  </div>
+  <div id="game">
+    <span style="font-style: bold; font-size: 23px;" id="d1"> &#8226 Your choice:<button id="game1" style="height: 20px;  width: 100px;"></button></span>
+      <span style="font-style: bold;font-size: 23px;" id="d2"> &#8226 computer choice:<button id="game2" style="height: 20px; width: 100px;"></button></span>
+  </div>
+  <div id="winner" style="display: flex;align-items: center;margin-top: 0px;"><div style="font-size: 40px;">&#127942 </div>Winner is:<button style="height: 20px; margin-top:5px; width: 100px;" id="won"></button><button id="reset">Reset</button></div>
+  <div id="score">
+  <div><h2 style="text-align: center; text-decoration: none;">&#128104 your score:<button id="my">0</button></h2></div>
+  <div><h2 style="text-align: center; text-decoration: none;">💻 computer score:<button id="machine">0</button></h2></div>
+</div>
+<div id="wish" >Congratulations! You won the game!!!!</div>
+
+  <script src="first.js"></script>
+</body>
+</html>
